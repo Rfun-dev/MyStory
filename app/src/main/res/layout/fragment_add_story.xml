@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.addstory.AddStoryFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/pb_add_story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add_story_kamera"
+            android:layout_width="122dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/yellow"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingHorizontal="8dp"
+            android:text="@string/camera"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cv_add_story_image_wrapper" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add_story_simpan"
+            android:layout_width="122dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginEnd="145dp"
+            android:background="@color/yellow"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingHorizontal="8dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cb_add_story" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add_story_galeri"
+            android:layout_width="122dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="40dp"
+            android:background="@color/yellow"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingHorizontal="8dp"
+            android:text="@string/gallery"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cv_add_story_image_wrapper" />
+
+        <CheckBox
+            android:id="@+id/cb_add_story"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/add_your_current_location_to_the_post"
+            app:layout_constraintBottom_toTopOf="@+id/btn_add_story_simpan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_add_story_description" />
+
+        <ImageButton
+            android:id="@+id/imb_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/back"
+            android:src="@drawable/back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/add_story"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_add_story_image_wrapper"
+            android:layout_width="0dp"
+            android:layout_height="341dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="68dp"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+            <ImageView
+                android:id="@+id/ip_add_story_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/img_add_story_image"
+                android:src="@drawable/camera" />
+
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/ed_add_story_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/black_corner"
+            android:gravity="top"
+            android:hint="@string/hint_description"
+            android:inputType="text|textMultiLine"
+            android:padding="30dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_add_story_kamera"
+            android:autofillHints="" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

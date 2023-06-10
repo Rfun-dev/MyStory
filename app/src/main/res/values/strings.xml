@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MyStory</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tag_login">Temukan 1000 Cerita  Menarik Disini.</string>
+    <string name="tag_main">Cerita kita</string>
+    <string name="tag_sub_main">mari cari tahu</string>
+    <string name="name">Erfan Ferdianto</string>
+    <string name="description">Deskripsi</string>
+    <string name="description_value">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra sollicitudin placerat. Integer mollis non nibh at semper. Morbi vel massa nec quam suscipit dignissim. Aenean vel molestie velit, eget egestas odio. Nullam at nunc porttitor, condimentum lacus quis, egestas est. Vestibulum ornare finibus lectus, sed auctor ante lacinia vitae. Vivamus egestas quis felis eget vulputate. Donec eu massa nibh. Duis congue, lorem sed viverra vestibulum, dolor velit condimentum ipsum, vel lacinia dui erat non erat. Donec rutrum libero vitae eros blandit aliquam. Vestibulum vel erat ut odio ultricies porta et sit amet ante.</string>
+    <string name="detail">Detail</string>
+    <string name="tag_register">Daftarkan akun anda</string>
+    <string name="add_story">Tambah Cerita</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="save">Simpan</string>
+    <string name="login">Masuk</string>
+    <string name="hint_description">Tulis cerita anda…</string>
+    <string name="register">Daftar</string>
+    <string name="name_empty">Nama tidak boleh kosong</string>
+    <string name="email_empty">Email tidak boleh kosong</string>
+    <string name="description_empty">Deskripsi tidak boleh kosong</string>
+    <string name="file_empty">File image tidak boleh kosong</string>
+    <string name="password_empty">Kata sandi tidak boleh kosong</string>
+    <string name="info">Informasi</string>
+    <string name="register_failed">Register akun gagal, nama atau email sudah terdaftar</string>
+    <string name="register_success">Register akun berhasil!</string>
+    <string name="change_language_settings">Pengaturan bahasa</string>
+    <string name="sign_out">Keluar</string>
+    <string name="no_data">Tidak ada data</string>
+    <string name="add_your_current_location_to_the_post">Tambahkan lokasi sekarang ke cerita?</string>
+
+    <string name="login_failed">Masuk akun gagal!</string>
+    <string name="login_success">Masuk akun berhasil!</string>
+
+    <string name="email_error">Email tidak valid</string>
+    <string name="email">Email</string>
+    <string name="password">Kata sandi</string>
+    <string name="password_error">Kata sandi minimal 8 huruf!</string>
+    <string name="username">Username</string>
+
+    <string name="btn_login_login">Masuk halaman utama</string>
+    <string name="fab_main_add">Masuk Tambah Cerita</string>
+    <string name="img_main_setting">Masuk setting</string>
+    <string name="iv_detail_photo">Gambar item</string>
+    <string name="img_detail_name">logo nama user</string>
+    <string name="img_add_story_image">gambar item</string>
+    <string name="back">kembali ke main</string>
+    <string name="iv_main_item">Nama user</string>
+    <string name="setting">Pengaturan</string>
+    <string name="maps">Peta</string>
+    <string name="home">Beranda</string>
+    <string name="language">Bahasa</string>
+    <string name="logout">Keluar</string>
+    <string name="close">close</string>
+    <string name="permission_not_granted">Izin tidak diberikan</string>
+    <string name="text_retry">Coba lagi</string>
+    <string name="text_location">lokasi :</string>
+    <string name="not_available">tidak tersedia</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_available">tidak tersedia</string>
+    <string name="app_name">MyStory</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tag_login">Find 1000 Interesting Story Here.</string>
+    <string name="tag_main">Our Story</string>
+    <string name="tag_sub_main">Let\'s find out</string>
+    <string name="name">Erfan Ferdianto</string>
+    <string name="description">Description</string>
+    <string name="description_value">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra sollicitudin placerat. Integer mollis non nibh at semper. Morbi vel massa nec quam suscipit dignissim. Aenean vel molestie velit, eget egestas odio. Nullam at nunc porttitor, condimentum lacus quis, egestas est. Vestibulum ornare finibus lectus, sed auctor ante lacinia vitae. Vivamus egestas quis felis eget vulputate. Donec eu massa nibh. Duis congue, lorem sed viverra vestibulum, dolor velit condimentum ipsum, vel lacinia dui erat non erat. Donec rutrum libero vitae eros blandit aliquam. Vestibulum vel erat ut odio ultricies porta et sit amet ante.</string>
+    <string name="detail">Detail</string>
+    <string name="tag_register">Register your account</string>
+    <string name="add_story">Add Story</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Galery</string>
+    <string name="save">Save</string>
+    <string name="login">Login</string>
+    <string name="hint_description">Write your story…</string>
+    <string name="register">Register</string>
+    <string name="name_empty">Name cannot be empty</string>
+    <string name="email_empty">Email cannot be empty</string>
+    <string name="password_empty">Password cannot be empty</string>
+    <string name="description_empty">Description cannot be empty</string>
+    <string name="file_empty">File image cannot be empty</string>
+    <string name="info">Information</string>
+    <string name="register_failed">Register failed, name or failed has been taken</string>
+    <string name="register_success">Account registration was successful!</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_success">Login was successful!</string>
+    <string name="change_language_settings">Language settings</string>
+    <string name="sign_out">Signout</string>
+    <string name="close">Close</string>
+    <string name="permission_not_granted">Permission Not Granted</string>
+    <string name="text_location">Location :</string>
+    <string name="text_retry">Retry</string>
+    <string name="no_data">Data No Available</string>
+    <string name="add_your_current_location_to_the_post">Add your current location to the story?</string>
+
+    <string name="email_error">Email not valid</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_error">Password minimal 8 character</string>
+    <string name="username">Username</string>
+    <string name="setting">Setting</string>
+    <string name="maps">Maps</string>
+    <string name="home">Home</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+
+    <string name="btn_login_login">Login to main page</string>
+    <string name="fab_main_add">Enter Add Story</string>
+    <string name="img_main_setting">Enter setting</string>
+    <string name="iv_detail_photo">Image item</string>
+    <string name="img_detail_name">Username logo</string>
+    <string name="img_add_story_image">Image item</string>
+    <string name="back">Back to main</string>
+    <string name="iv_main_item">Username</string>
+</resources>
